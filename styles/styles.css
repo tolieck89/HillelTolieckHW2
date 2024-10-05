@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(202, 207, 207, 0.664);
+    max-width: 95%;
+    padding-left: 1%;
+}    
+
+a {
+    color: rgb(76, 73, 241);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.galleryImg {
+    height: 100px;
+}
+
+img {
+    max-width: 97%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(174, 186, 196, 0.24);
+    padding: 1em;
+    box-sizing: border-box;
+    border: 12px;
+    width: 100%;
+}
+
+.gallery div {
+    width: 2em;
+    height: 2em;
+}
+
+.gallery h5 {
+    width: 10em ;
+    text-align: right;
+}
+
+fieldset {
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 30%;
+}
+
+.textform {
+    margin: 4px;
+}
+
+
+.body  {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+.main   {
+    width: 80%;
+    height: 100%;
+    padding: 1em;
+}
+
+.links {
+    width: 20%;
+    border: 1px;
+    padding: 1em;
+    border: 1px dashed black;
+}
+
+
+
+.textform {
+    margin-right: 20%;
+    width: 80%;
+    margin-top: 4px;
+}
+
+.regform{
+    margin-top: 4px;
+    width: 50%;
+    margin-right: 70%;
+    margin-bottom: 4px;
+}
+
+.buttons{
+    width: 41%;
+    margin-top: 4px;
+}

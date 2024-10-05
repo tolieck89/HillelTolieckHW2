@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="main">
+            <h1>Fill a registration form:</h1>
+
+            <form>
+                <fieldset>
+                    <legend>Registration form</legend>
+                    <div class="regform">
+                        <label for="login">Login: </label>
+                        <input type="text" name="username" placeholder="Enter your login" id="username" class="regform">
+                        <!--value не пишу, бо не хочу, але знаю про цей атрибут)))-->
+                    </div>
+
+                    <div class="regform">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" placeholder="Enter e-mail" id="email" class="regform">
+                    </div>
+
+                    <div class="regform">
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" placeholder="Enter password"
+                            class="regform">
+                    </div>
+
+                    <div class="regform">
+                        Hobbies: <br>
+                        <input type="checkbox" name="hobbies" value="guitar">Playing the guitar<br>
+                        <input type="checkbox" name="hobbies" value="walking">Walking<br>
+                        <input type="checkbox" name="hobbies" value="dontHave">I don't have a hobby<br>
+                    </div>
+
+                    <div class="regform">
+                        Gender:
+                        <br>
+                        <input type="radio" name="gender" value="male">Male<br>
+                        <input type="radio" name="gender" value="female">Female<br>
+                    </div>
+
+                    <div class="regform">
+                        <label for="dateOfBirth">Choose the date of birth: </label>
+                        <input type="date" name="dateOfBirth" id="dateOfBirth">
+                    </div>
+
+                    <div class="regform">
+                        <label for="quantityChildren">How many children do you have:</label>
+                        <input type="number" name="quantityChildren" id="quantityChildren" min="0" max="100">
+                    </div>
+
+                    <div class="regform">
+                        <label for="city">Where are you from: </label>
+                        <select name="city" id="city">
+                            <!--Про атрибут малтіпл знаю, просто не вважаю його доречним тут-->
+                            <option value="0">--select city--</option>
+                            <option value="1">Irpin</option>
+                            <option value="2">Butcha</option>
+                            <option value="3">Bahmut</option>
+                            <option value="4">Kyiv</option>
+                        </select>
+                    </div>
+
+                    <div class="regform">
+                        <label for="avatar">Load your photo: </label>
+                        <input type="file" name="avatar" id="avatar">
+                    </div>
+
+                    <div class="regform">
+                        <label for="about">Tell about you:</label>
+                        <textarea name="about" id="about" rows="5" class="textform"></textarea>
+                        <input type="submit" value="Send" class="buttons">
+                        <input type="reset" value="Reset" class="buttons">
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+
+        <div class="links">
+            <form>
+                <fieldset>
+                    <legend>Autorization form</legend>
+                    <div>
+                        <label for="login">Login:</label>
+                        <input type="text" placeholder="Enter your login" name="login" id="login" class="textform">
+                    </div>
+
+                    <div>
+                        <label for="psw">Password: </label>
+                        <input type="password" name="psw" id="psw" placeholder="Enter your password" class="textform">
+                    </div>
+
+                    <div>
+                        <button type="submit" class="buttons">Send</button>
+                        <button type="reset" class="buttons">Reset</button>
+                        <p>Forgot password? Click <a href="/images/cat1.JPG">here.</a></p>
+                    </div>
+                </fieldset>
+            </form>
+            <p>Don't have account yet? Click <a href="/pages/register.html">here </a>for regisration!</p>
+            <!-- Тут би поп-ап замутити з формою реєстрації, але скіллів ще поки не вистачає, тому зроблю лінку на форму)))-->
+
+            <h3>Site navigation:</h3>
+            <ul>
+                <li><a href="/index.html">The main page</a></li>
+                <!--чомусь просто зі слешем не пускає в рут, доводиться юзати дві крапки-->
+                <li><a href="/pages/gallery.html">Our gallery</a></li>
+                <li><a href="/pages/articles.html">Articles:</a>
+                    <ol>
+                        <li><a href="/pages/articles.html#general">General information</a></li>
+                        <li><a href="/pages/articles.html#firstep">First release</a></li>
+                        <li><a href="/pages/articles.html#bassist">Death of bassist</a></li>
+                        <li><a href="/pages/articles.html#2008">2008–2009: Dance Gavin Dance and Happiness</a></li>
+                        <li><a href="/pages/articles.html#2009">Dance Gavin Dance in 2009</a></li>
+                        <li><a href="/pages/articles.html#2010">2010–2012: Downtown Battle Mountain II</a></li>
+
+                    </ol>
+                </li>
+            </ul>
+            <div>
+                <h3>Our contacts:</h3>
+                <p>Phone: +3801234567</p>
+                <p>Zip: 2100</p>
+                <p>E-mail: blabla@bla.com</p>
+                <p>Our tg — «@trolle»</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
