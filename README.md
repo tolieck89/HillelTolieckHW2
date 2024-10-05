@@ -7,13 +7,15 @@ _А ще, а ще_ я можу писати *курсивом.* Або наві�
 Можна по-різному розважатись з цим маркдауном. Корисна штука. 
 Наприклад, _вставити фрагмент коду._
 
-`                   <div class="regform">
+                   '<div class="regform">
                         <label for="about">Tell about you:</label>
                         <textarea name="about" id="about" rows="5" class="textform"></textarea>
                         <input type="submit" value="Send" class="buttons">
                         <input type="reset" value="Reset" class="buttons">
                     </div>
-                    `
+                            '
+                    
+
 Ну і, звісно, зручно в текст [зашивати лінки.](https://tolieck89.github.io/HillelTolieckHW2/)
 Або навіть вставити зображення: 
 ![Котик ненавидить ветеринарів](https://tolieck89.github.io/HillelTolieckHW2/images/cat_hates_vets.jpg)
